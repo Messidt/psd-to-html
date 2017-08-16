@@ -9,7 +9,9 @@
 }
 
 body {
-  font-family: 'Trebuchet MS';
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  background: #f9f9f9;
 }
 .current {
   color: #28b8d8;
@@ -24,11 +26,7 @@ body {
 header {
   background: #8c8c8c;
   padding: 20px 0;
-  position: absolute;
-  top: 0;
   opacity: 0.7;
-  width: 96%;
-  padding: 0 2%;
 
   .wrapper {
     display: flex;
@@ -70,6 +68,54 @@ header {
 
 }
 
-#main-banner img {
+#main-banner {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  #banner-overlay {
+    position: absolute;
+    top: 35%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+  }
+
+}
+
+#services {
+  background: #f9f9f9;
   width: 100%;
+
+  h2.services.title {
+    color: #444444;
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 60px 0 30px 0;
+  }
+  p.services.paragraph {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
 }
