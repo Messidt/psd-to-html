@@ -110,7 +110,7 @@ header {
     border-bottom: 1px solid #d9d9d9;
     width: 500px;
     margin: 80px auto 30px auto;
-    height: 5px; }
+    height: 3px; }
   #services h2.section-title {
     color: #444444;
     text-transform: uppercase;
@@ -174,7 +174,7 @@ header {
     border-bottom: 1px solid #d9d9d9;
     width: 500px;
     margin: 80px auto 30px auto;
-    height: 5px;
+    height: 3px;
     border-color: #535353; }
   #latest-shots ul {
     display: -webkit-box;
@@ -203,79 +203,174 @@ header {
     #latest-shots #instagram i {
       margin-right: 2px; }
 
-#journal .section-title-border {
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-  width: 500px;
-  margin: 80px auto 30px auto;
-  height: 5px; }
+#journal {
+  padding-bottom: 80px; }
+  #journal .section-title-border {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 500px;
+    margin: 80px auto 30px auto;
+    height: 3px; }
+  #journal .section-title {
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -45px;
+    background: #f9f9f9; }
+  #journal ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  #journal li {
+    border: 1px solid #e3e3e3;
+    width: 32%;
+    background-color: #fff; }
+  #journal h3, #journal h5 {
+    text-align: center; }
+  #journal h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  #journal h5 {
+    color: #999999;
+    font-size: 1.3rem;
+    padding-bottom: 20px; }
+  #journal img {
+    width: 100%; }
+  #journal div.description {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 30px; }
+  #journal p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 15px 0;
+    font-weight: bold;
+    line-height: 1.5; }
+  #journal a {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid #28b8d8; }
+  #journal span {
+    float: right;
+    color: #666; }
+    #journal span i {
+      margin-right: 2px; }
 
-#journal .section-title {
-  color: #444444;
-  text-transform: uppercase;
-  font-size: 2rem;
-  width: 250px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  top: -45px;
-  background: #f9f9f9; }
-
-#journal ul {
+#about {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  list-style-type: none;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 80px; }
+  #about .about-left, #about .about-right {
+    width: 48%; }
+  #about ul {
+    list-style-type: none; }
+  #about .about-left ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  #about .about-left h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    color: #666;
+    width: 95%; }
+  #about .about-left p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #666;
+    width: 95%; }
+  #about .about-left li:first-child {
+    width: 35%; }
+    #about .about-left li:first-child img {
+      width: 90%; }
+  #about .about-left li:nth-child(2) {
+    width: 65%; }
+  #about .about-right h3 {
+    color: #444444;
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  #about .about-right p {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: #8b8b8b;
+    line-height: 1.5; }
+  #about .about-right li {
+    padding-left: 60px; }
+  #about .about-right li:first-child {
+    background: url(../images/serv-icon-1.png) no-repeat -12px -12px; }
+  #about .about-right li:nth-child(2) {
+    background: url(../images/serv-icon-2.png) no-repeat -12px -12px; }
+  #about .about-right li:nth-child(3) {
+    background: url(../images/serv-icon-3.png) no-repeat -12px -12px; }
+  #about .about-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px; }
+  #about h2 {
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 2rem; }
+  #about .about-border-right {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 100px;
+    height: 3px;
+    margin-left: 10px;
+    margin-top: 7px; }
 
-#journal li {
-  border: 1px solid #e3e3e3;
-  width: 32%; }
-
-#journal h3, #journal h5 {
-  text-align: center; }
-
-#journal h3 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.8rem;
-  padding-top: 20px;
-  padding-bottom: 10px; }
-
-#journal h5 {
-  color: #999999;
-  font-size: 1.3rem;
-  padding-bottom: 20px; }
-
-#journal img {
-  width: 100%; }
-
-#journal div.description {
-  width: 85%;
-  margin: 0 auto;
-  padding-bottom: 30px; }
-
-#journal p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  color: #666;
-  padding: 15px 0;
-  font-weight: bold;
-  line-height: 1.5; }
-
-#journal a {
-  float: left;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  color: #666;
-  border-bottom: 1px solid #28b8d8; }
-
-#journal span {
-  float: right;
-  color: #666; }
-  #journal span i {
-    margin-right: 2px; }
+footer {
+  background-color: #373737;
+  padding-top: 50px; }
+  footer #copyright {
+    background-color: #333; }
+  footer #contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    footer #contact ul {
+      list-style-type: none;
+      width: 23%; }
+    footer #contact h4 {
+      color: #f0f0f0;
+      font-size: 2rem;
+      text-transform: uppercase; }
+    footer #contact li {
+      color: #c1c1c1;
+      line-height: 1.5;
+      font-size: 1.5rem;
+      padding-bottom: 12px; }
+    footer #contact span {
+      color: #929292;
+      font-size: 1.3rem; }
