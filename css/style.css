@@ -220,3 +220,62 @@ header {
   position: relative;
   top: -45px;
   background: #f9f9f9; }
+
+#journal ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+#journal li {
+  border: 1px solid #e3e3e3;
+  width: 32%; }
+
+#journal h3, #journal h5 {
+  text-align: center; }
+
+#journal h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
+#journal h5 {
+  color: #999999;
+  font-size: 1.3rem;
+  padding-bottom: 20px; }
+
+#journal img {
+  width: 100%; }
+
+#journal div.description {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+
+#journal p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  padding: 15px 0;
+  font-weight: bold;
+  line-height: 1.5; }
+
+#journal a {
+  float: left;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px solid #28b8d8; }
+
+#journal span {
+  float: right;
+  color: #666; }
+  #journal span i {
+    margin-right: 2px; }

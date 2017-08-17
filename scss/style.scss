@@ -257,4 +257,71 @@ header {
   .section-title {
     @include section-title;
   }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  li {
+    border: 1px solid #e3e3e3;
+    width: 32%;
+  }
+
+  h3, h5 {
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  h5 {
+    color: #999999;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  div.description {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 15px 0;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  a {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid #28b8d8;
+  }
+
+  span {
+    float: right;
+    color: #666;
+
+    i {
+      margin-right: 2px;
+    }
+  }
 }
+
+// JOURNAL END //
