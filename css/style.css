@@ -349,7 +349,10 @@ footer {
   background-color: #373737;
   padding-top: 50px; }
   footer #copyright {
-    background-color: #333; }
+    background-color: #333;
+    color: #cacaca;
+    padding: 30px 0;
+    font-size: 1.5rem; }
   footer #contact {
     display: -webkit-box;
     display: -webkit-flex;
@@ -358,7 +361,8 @@ footer {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-bottom: 40px; }
     footer #contact ul {
       list-style-type: none;
       width: 23%; }
@@ -371,6 +375,14 @@ footer {
       line-height: 1.5;
       font-size: 1.5rem;
       padding-bottom: 12px; }
+    footer #contact #street, footer #contact #city, footer #contact #number, footer #contact #mail {
+      padding-left: 25px; }
+    footer #contact #street {
+      background: url(../images/marker.png) no-repeat; }
+    footer #contact #number {
+      background: url(../images/telephone.png) no-repeat; }
+    footer #contact #mail {
+      background: url(../images/envelope.png) no-repeat; }
     footer #contact span {
       color: #929292;
       font-size: 1.3rem; }
