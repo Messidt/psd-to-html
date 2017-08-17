@@ -8,9 +8,11 @@
   margin: 0;
 }
 
+html {
+  font-size: 10px;
+}
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
   background: #f9f9f9;
 }
 .current {
@@ -27,6 +29,10 @@ header {
   background: #8c8c8c;
   padding: 20px 0;
   opacity: 0.7;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
 
   .wrapper {
     display: flex;
@@ -60,6 +66,7 @@ header {
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
+    font-size: 1.5rem;
   }
   #main-nav li:last-child {
     border-right: 1px solid #3c3a42;
@@ -67,6 +74,8 @@ header {
   }
 
 }
+
+// HEADER END //
 
 #main-banner {
   position: relative;
@@ -77,7 +86,7 @@ header {
 
   #banner-overlay {
     position: absolute;
-    top: 35%;
+    top: 40%;
     color: white;
     width: 100%;
     text-align: center;
@@ -85,13 +94,13 @@ header {
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 6rem;
     text-transform: uppercase;
   }
   h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
-    font-size: 4em;
+    font-size: 5.5rem;
     text-transform: uppercase;
   }
 
@@ -102,13 +111,15 @@ header {
 
 }
 
+// MAIN BANNER END //
+
 #services {
   background: #f9f9f9;
   width: 100%;
 
   h2.services.title {
     color: #444444;
-    font-size: 2.5em;
+    font-size: 3.5rem;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     text-align: center;
@@ -117,5 +128,63 @@ header {
   p.services.paragraph {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 1.5rem;
   }
+
+  .h2-border {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 40%;
+    margin: 80px auto 30px auto;
+    height: 5px;
+  }
+  h2.services.offer {
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -45px;
+    background: #f9f9f9;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style-type: none;
+    border: 1px solid #e3e3e3;
+    padding: 2%;
+    margin: 1%;
+    flex: 1 1 28%;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+    h3 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.5rem;
+      color: #444444;
+      padding-top: 2%;
+    }
+    p {
+      color: #676767;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 2%;
+      line-height: 1.5;
+    }
+  }
+
+  // UL END //
+}
+
+// SERVICES END //
+
+#latest-shots {
+  background-color: #2c2c2cY
 }
