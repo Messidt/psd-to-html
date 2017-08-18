@@ -7,21 +7,15 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
-      "css": "heart-empty",
-      "code": 59392,
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "code": 61641,
       "src": "fontawesome"
     },
     {
-      "uid": "dad4e7f8dc2e57c92cffc0231202d9a0",
-      "css": "instagram",
-      "code": 62238,
-      "src": "brandico"
-    },
-    {
-      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
-      "css": "facebook",
-      "code": 61594,
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59392,
       "src": "fontawesome"
     },
     {
@@ -31,16 +25,28 @@
       "src": "modernpics"
     },
     {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 61594,
+      "src": "fontawesome"
+    },
+    {
       "uid": "cc399e4597f157dcbf016be0b7407fea",
       "css": "pinterest",
       "code": 62001,
       "src": "fontawesome"
     },
     {
-      "uid": "e8d13cd05bd63219329b2b61835d776c",
+      "uid": "dad4e7f8dc2e57c92cffc0231202d9a0",
+      "css": "instagram",
+      "code": 62238,
+      "src": "brandico"
+    },
+    {
+      "uid": "199c44bca402ec5a6351f75ba5228375",
       "css": "dribbble",
-      "code": 62235,
-      "src": "entypo"
+      "code": 61821,
+      "src": "fontawesome"
     }
   ]
 }
