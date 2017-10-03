@@ -1,0 +1,27 @@
+@mixin indent {
+  text-indent: -10000px;
+  line-height: 0;
+  margin: 0;
+}
+
+@mixin section-title {
+  color: #444444;
+  text-transform: uppercase;
+  font-size: 2rem;
+  // make it responsive
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  background: #f9f9f9;
+}
+
+@mixin section-title-border {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  // make it responsive
+  width: 500px;
+  margin: 80px auto 30px auto;
+  height: 3px;
+}

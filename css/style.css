@@ -1,9 +1,98 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
 html {
   font-size: 10px; }
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background: #f9f9f9; }
+  background: #f9f9f9;
+  display: none; }
 
 .current {
   color: #28b8d8; }
@@ -67,6 +156,8 @@ header {
     text-transform: uppercase;
     font-size: 1.5rem;
     width: 100%; }
+    header a:hover {
+      color: #28b8d8; }
   header #main-nav li:last-child {
     border-right: 1px solid #3c3a42;
     padding-right: 20px; }
@@ -141,7 +232,12 @@ header {
     padding: 2%;
     margin: 1%;
     width: 28%;
-    text-align: center; }
+    text-align: center;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+    #services li:hover {
+      border-bottom: 5px solid #444444; }
     #services li img {
       width: 100%; }
     #services li h3 {
@@ -187,7 +283,14 @@ header {
     list-style-type: none; }
   #latest-shots li {
     width: 22%;
-    padding: 1.5%; }
+    padding: 1.5%;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+    #latest-shots li:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
     #latest-shots li img {
       width: 100%; }
   #latest-shots #instagram {
@@ -202,7 +305,13 @@ header {
       text-transform: uppercase;
       padding: 10px;
       font-size: 1.5rem;
-      font-family: 'Roboto', sans-serif; }
+      font-family: 'Roboto', sans-serif;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+      #latest-shots #instagram a:hover {
+        color: #28b8d8;
+        border-color: #28b8d8; }
     #latest-shots #instagram i {
       margin-right: 2px; }
 
@@ -237,7 +346,12 @@ header {
   #journal li {
     border: 1px solid #e3e3e3;
     width: 32%;
-    background-color: #fff; }
+    background-color: #fff;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+    #journal li:hover {
+      border-bottom: 5px solid #444444; }
   #journal h3, #journal h5 {
     text-align: center; }
   #journal h3 {
@@ -424,7 +538,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    position: static; }
+    padding-bottom: 5px; }
     header #navigation {
       display: block; }
     header #main-nav li:last-child {
@@ -433,10 +547,9 @@ footer {
       padding-right: 0; }
     header #social-nav {
       width: 20%;
-      margin: 0 auto;
-      padding-top: 10px; }
+      margin: 0 auto; }
   #main-banner #banner-overlay {
-    top: 30%; }
+    top: 50%; }
   #main-banner h2 {
     font-size: 4rem; }
   #main-banner h3 {
@@ -471,6 +584,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   header {
+    opacity: .95;
     padding-bottom: 0; }
     header .wrapper {
       padding: 0;
@@ -487,6 +601,8 @@ footer {
     header #main-nav, header aside {
       height: 0;
       overflow: hidden; }
+    header #main-nav.open, header aside.open {
+      height: auto; }
     header #burger-nav {
       display: block;
       width: 100%;
@@ -497,6 +613,8 @@ footer {
   #services li {
     width: 85%;
     margin: 0 7.5% 10px 7.5%; }
+  #main-banner #banner-overlay {
+    top: 45%; }
   #latest-shots li {
     width: 85%;
     padding: 3% 7.5% 3% 7.5%; }
@@ -515,6 +633,3 @@ footer {
     padding: 3% 7.5% 3% 7.5%; }
   footer #copyright {
     text-align: center; } }
-
-.open {
-  height: auto; }

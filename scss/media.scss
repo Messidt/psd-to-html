@@ -1,0 +1,230 @@
+
+@media screen and (max-width: 960px) {
+  #banner-overlay {
+    h2 {
+      font-size: 5rem;
+    }
+
+    h3 {
+      font-size: 4.5rem;
+    }
+  }
+
+  #services {
+    h2.services.title {
+      font-size: 3rem;
+    }
+  }
+
+  #latest-shots {
+
+    ul {
+      flex-wrap: wrap;
+    }
+
+    li {
+      width: 44%;
+      padding: 3%;
+    }
+  }
+}
+
+// MAX WIDTH 960PX END //
+
+@media screen and (max-width: 860px) {
+  header {
+    padding-top: 0;
+    padding-bottom: 10px;
+    .wrapper {
+      display: block;
+    }
+
+    h1 {
+      margin: 0 auto;
+    }
+
+    #navigation {
+      width: 85%;
+      padding-left: 7.5%;
+      padding-right: 7.5%;
+    }
+
+    li {
+      margin-top: 10px;
+    }
+  }
+}
+
+// MAX WIDTH 860PX END //
+
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 5px;
+
+    #navigation {
+      display: block;
+    }
+    #main-nav li:last-child {
+      border: none;
+      margin-right: 0;
+      padding-right: 0;
+    }
+    #social-nav {
+      width: 20%;
+      margin: 0 auto;
+    }
+  }
+
+  #main-banner {
+    #banner-overlay {
+      top: 50%;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+
+  #services {
+    h2.services.title {
+      font-size: 2.2rem;
+    }
+    p.services.paragraph {
+      font-size: 1.3rem;
+      width: 80%;
+      margin: 0 auto;
+    }
+    ul {
+      flex-wrap: wrap;
+    }
+
+    li {
+      width: 70%;
+      margin: 0 15% 10px 15%;
+    }
+  }
+
+  #journal {
+    ul {
+      flex-wrap: wrap;
+    }
+
+    li {
+      width: 70%;
+      margin: 0 15% 10px 15%;
+    }
+  }
+
+  footer {
+    #contact {
+      flex-wrap: wrap;
+      ul {
+        width: 46%;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+// MAX-WIDTH 768PX END //
+
+@media screen and (max-width: 480px) {
+  header {
+    opacity: .95;
+    padding-bottom: 0;
+    .wrapper {
+      padding: 0;
+      width: 100%;
+    }
+    #navigation {
+      width: 100%;
+      padding: 0;
+
+    }
+    #main-nav {
+      ul {
+        display: block;
+      }
+      li {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+      }
+    }
+    #main-nav, aside {
+      height: 0;
+      overflow: hidden;
+        
+    }
+      
+    #main-nav.open, aside.open {
+        height: auto;
+    } 
+    #burger-nav {
+      display: block;
+      width: 100%;
+      height: 20px;
+      font-size: 2rem;
+      background-color: #666;
+      text-align: right;
+    }
+  }
+
+  #services {
+    li {
+      width: 85%;
+      margin: 0 7.5% 10px 7.5%;
+    }
+  }
+    
+    // HEADER END //
+    
+    
+    #main-banner {
+        #banner-overlay {
+            top: 45%;
+        }
+    }
+
+  #latest-shots {
+    li {
+      width: 85%;
+      padding: 3% 7.5% 3% 7.5%;
+    }
+  }
+
+  #journal {
+    li {
+      width: 85%;
+      margin: 0 7.5% 10px 7.5%;
+    }
+  }
+
+  #about {
+    flex-wrap: wrap;
+
+    .about-left, .about-right {
+      width: 85%;
+      padding: 3% 7.5% 3% 7.5%;
+
+    }
+  }
+
+  footer {
+    #contact {
+      ul {
+        width: 85%;
+        padding: 3% 7.5% 3% 7.5%;
+      }
+    }
+    #copyright {
+      text-align: center;
+    }
+  }
+}
+
+
+// MAX-WIDTH 480PX END //
+
